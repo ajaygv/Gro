@@ -1,34 +1,33 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import { Header } from './Component/Header'
+import { SideMenu } from './Component/SideMenu'
+import { UserName } from './Component/UserName'
+import { Invested } from './Component/Invested'
+import { PortfolioMetrics } from './Component/PortfolioMetrics'
+import { Sector } from './Component/Sector'
+import { Overlap } from './Component/Overlap'
+import { Performance } from './Component/Performance'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div id="all">
+      <Header/>
+      <div id="Content">
       <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <SideMenu/>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+      <div id="midContent">
+      <UserName/>
+      <PortfolioMetrics/>
+      <Sector/>
+      <Overlap/>
+      <Performance/>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+      </div>
+    </div>
   )
 }
 
