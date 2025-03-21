@@ -1,4 +1,8 @@
 import '/home/ajaygv/Gro/src/App.css'
+import logout from '../assets/logout.svg'
+import notification from '../assets/notification.svg'
+import search from '../assets/search.svg'
+import user from '../assets/user.svg'
 
 export const Header = () => {
     return (
@@ -17,10 +21,10 @@ export const Header = () => {
                     <button style={{borderTopRightRadius: "8px", borderBottomRightRadius: "8px" }}>Transaction</button>
                 </div>
                 <div>
-                    <button  style={{borderTopLeftRadius: "8px", borderBottomLeftRadius: "8px" }}><img src="/home/ajaygv/Gro/src/assets/search.svg" /></button>
-                    <button><img src="/home/ajaygv/Gro/src/assets/user.svg" /></button>
-                    <button><img src="/home/ajaygv/Gro/src/assets/notification.svg" /></button>
-                    <button  style={{borderTopRightRadius: "8px", borderBottomRightRadius: "8px" }}><img src="/home/ajaygv/Gro/src/assets/logout.svg" /></button>
+                    <button  style={{borderTopLeftRadius: "8px", borderBottomLeftRadius: "8px" }}><img src={search} /></button>
+                    <button><img src={user} /></button>
+                    <button><img src={notification}/></button>
+                    <button  style={{borderTopRightRadius: "8px", borderBottomRightRadius: "8px" }}><img src={logout} /></button>
                 </div>
             </div>
         </>

@@ -3,14 +3,18 @@
   flex-wrap: wrap;
   /* justify-content: fixed; */
   /* align-items: center; */
-  background-color: #f0ecec; /* Dark background */
+  background-color: #f0ecec;
+  /* Dark background */
   padding: 15px 90px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  width: 1360px; /* Full width */
-  gap: 190px; /* Space between elements */
+  width: 1360px;
+  /* Full width */
+  gap: 190px;
+  /* Space between elements */
   border-radius: 8px;
-  
+
 }
+
 #Logo_Container img {
   border-radius: 8px;
   height: 50px;
@@ -27,12 +31,12 @@
   border-top: 40px;
   border-right: 20px;
   border-color: black;
-  
-  gap:20px;
+
+  gap: 20px;
 }
 
 #Nav_Container a {
-  color:#1B1A1A;
+  color: #1B1A1A;
   text-decoration: none;
   font-size: 16px;
   font-weight: 500;
@@ -40,54 +44,63 @@
 }
 
 #Nav_Container a:hover {
-  color: #ff9800; /* Highlight color */
+  color: #ff9800;
+  /* Highlight color */
 }
 
-#Investment_Container{
+#Investment_Container {
+  background-color: rgb(76, 76, 152) ;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 30px;
   
-  padding: 10px 10px;
 
 }
-#Invest_content{
-  display:flex;
-  flex-direction:table-row;
+
+#Invest_content {
+  display: flex;
+  flex-direction: table-row;
   width: 10%;
-}
-#Invest_content img{
-  width:70%;
-  height:50%;
-  padding-top: 10%;
+  gap: 2px;
 }
 
-#Mid-Line{
-  gap:20%;
+#Invest_content img {
+  width: 75px;
+  height: 75px;
+  padding: 15px;
+ 
+}
+
+#Mid-Line {
+  gap: 20%;
   display: flex;
   flex-direction: row;
   padding-left: 20%;
 
 }
-#Sector_container{
+
+#Sector_container {
   border-radius: 12px;
   display: flex;
   flex-wrap: wrap;
-  color : rgb(255, 255, 255);
-  background-color:#1B1A1A;
-  height:430px;
+  color: rgb(255, 255, 255);
+  background-color: #1B1A1A;
+  height: 430px;
   width: 1190px;
   border-color: #f0ecec;
   margin-left: 200px;
-  
 
-  
+
+
 }
- 
-#Sector_container h3{
+
+#Sector_container h3 {
   padding-left: 5%;
   justify-content: center;
   justify-content: center;
 }
 
-#Boxes{
+#Boxes {
   border-radius: 12px;
   display: flex;
   flex-wrap: wrap;
@@ -98,17 +111,22 @@
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 60px;
-  gap:50px;
- 
+  gap: 50px;
+
 }
 
-#Boxes #box1,#box2,#box3,#box4,#box5,#box6{
+#Boxes #box1,
+#box2,
+#box3,
+#box4,
+#box5,
+#box6 {
   background-color: #ff9800;
   border-radius: 12px;
   color: rgb(0, 0, 0);
   width: 100px;
-  height:50px;
-  border-style:groove;
+  height: 50px;
+  border-style: groove;
   border-color: #f0ecec;
   padding: 30px;
   margin-top: 5px;
@@ -117,19 +135,19 @@
  
   border-style :groove;
   border-color: rgb(73, 124, 124); */
-  
 
-  
+
+
 }
 
-#Overlap_container{
+#Overlap_container {
   border-radius: 12px;
   /* display: flex;
   flex-wrap: wrap; */
   margin-top: 30px;
-  color : rgb(255, 255, 255);
-  background-color:#1B1A1A;
-  height:750px;
+  color: rgb(255, 255, 255);
+  background-color: #1B1A1A;
+  height: 750px;
   width: 1170px;
   border-color: #f0ecec;
   margin-left: 200px;
@@ -137,39 +155,42 @@
   padding-top: 20px;
 
 }
-#Performance{
+
+#Performance {
   border-radius: 12px;
   padding-left: 20px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  color : rgb(255, 255, 255);
-  background-color:#1B1A1A;
-  height:430px;
+  color: rgb(255, 255, 255);
+  background-color: #1B1A1A;
+  height: 430px;
   width: 1170px;
   border-color: #f0ecec;
   margin-left: 200px;
   margin-top: 20px;
 }
-#UserName{
+
+#UserName {
   border-radius: 12px;
   padding-top: 20px;
   padding-left: 20px;
   margin-left: 20px;
-  
-  color : rgb(255, 255, 255);
-  background-color:#1B1A1A;
-  height:430px;
+
+  color: rgb(255, 255, 255);
+  background-color: #1B1A1A;
+  height: 430px;
   width: 1170px;
   border-color: #f0ecec;
   margin-left: 200px;
-  margin-top: 20px;}
+  margin-top: 20px;
+}
 
 #UserName #Tab {
   margin-top: 40px;
- display: flex;
- flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
- 
-  
- }
+
+
+}
